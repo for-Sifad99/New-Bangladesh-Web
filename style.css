@@ -1,4 +1,100 @@
+/* Import the Font-family style for "fira sans" */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* the common style for whole body of the webpage. */
+.common{
+  font-family: "Fira Sans", serif;
+  background-color: #F1F1F3;
+}
+/* Header section positioning and styling. */
+/* Navbar styling. */
+.nav-bar{
+    display: flex;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    gap: 699px;
+    align-items: center;
+}
+
+/* Navbar item Like text styling. */
+.nav-text{
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 160px;
+}
+
+/* Navbar item Like button or link styling. */
+.nav-li-sign-btn{
+    list-style: none;
+    padding-right: 160px;
+}
+
+.nav-a-sign-btn{
+    text-decoration: none;
+    font-size: 18px;
+    color: #006A50;
+    font-weight: 600;
+    border: 1.5px #006A50 solid;
+    border-radius: 8px;
+    padding: 13px 30px 13px 30px;
+}
+
+/* The top section styling. */
+/* whole top section positioning and styling */
+.intro-section{
+    display: flex;
+    min-width: auto;
+    height: 468px;
+    background-color: #C6E4D6;
+    margin: 0 170px 0 160px;
+    border-radius: 24px;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Top section Description styling. */
+.intro-description{
+    margin-left: 62px;
+    height: 255px;
+    width: 456px;
+  }
+
+/*  top section title styling. */
+.intro-title{
+    color: #0E0E0E;
+    opacity: 50%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* top section subtitle styling. */
+.intro-subtitle{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*  Top section Button styling. */
+.welcome-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #006A50;
+    margin-top: 15px;
+    padding: 14px 33px;
+    border-radius: 6px;
+}
+
+/* Top section hero Image styling. */
+.intro-img{
+    margin-right: 62px;
+    width: 380px;
+    height: 330px;
 }
