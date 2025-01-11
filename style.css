@@ -8,41 +8,41 @@
 
 /* the common style for whole body of the webpage. */
 .common{
-  font-family: "Fira Sans", serif;
-  background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 }
 /* Header section positioning and styling. */
 /* Navbar styling. */
 .nav-bar{
     display: flex;
+    height: 20px;
     width: 100%;
-    padding-top: 24px;
-    padding-bottom: 40px;
-    gap: 699px;
-    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 37px;
+    justify-content: space-around;
 }
 
 /* Navbar item Like text styling. */
 .nav-text{
     font-weight: bold;
-    font-size: 32px;
-    padding-left: 160px;
+    font-size: 27px;
+    padding-left: 110px;
 }
 
 /* Navbar item Like button or link styling. */
 .nav-li-sign-btn{
     list-style: none;
-    padding-right: 160px;
+    padding-right: 120px;
 }
 
 .nav-a-sign-btn{
     text-decoration: none;
-    font-size: 18px;
-    color: #006A50;
-    font-weight: 600;
+    font-size: 16px;
+    color: #006A50; 
+    margin-left: 626px;
     border: 1.5px #006A50 solid;
     border-radius: 8px;
-    padding: 13px 30px 13px 30px;
+    padding: 13px 26px 13px 26px;
 }
 
 /* The top section styling. */
@@ -52,7 +52,7 @@
     min-width: auto;
     height: 468px;
     background-color: #C6E4D6;
-    margin: 0 170px 0 160px;
+    margin: 0 170px 120px 160px;
     border-radius: 24px;
     align-items: center;
     gap: 60px;
@@ -63,7 +63,7 @@
     margin-left: 62px;
     height: 255px;
     width: 456px;
-  }
+}
 
 /*  top section title styling. */
 .intro-title{
@@ -98,3 +98,367 @@
     width: 380px;
     height: 330px;
 }
+
+/* First card section styling. */
+.first-cards-section{
+    min-width: auto;
+    height: 276px;
+    border-radius: 16px;
+    margin: 0 170px 120px 160px;
+}
+
+.first-cards-section-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.first-cards-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-card{
+    height:155px;
+    width: 197px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.first-card-icon{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.first-card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 9px;
+}
+
+.first-card-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0E0E0E;
+    opacity: 80%; 
+}
+
+/* second card section styling. */
+.second-cards-section{
+    min-width: auto;
+    height: 613px;
+    border-radius: 16px;
+    margin: 0 170px 120px 160px;
+}
+
+.second-cards-section-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.second-cards-section-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0E0E0E;
+    opacity: 70%; 
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.second-cards-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.second-card{
+    height:227px;
+    width: 266px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.second-card1{
+    background-color: #D5E1F6;
+}
+
+.second-card2{
+    background-color: #C6E4D6;
+}
+
+.second-card3{
+    background-color: #F7EBCF;
+}
+
+.second-card-icon{
+    height: 65px;
+    width: 65px;
+    margin-bottom: 22px;
+}
+
+.second-card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 11px;
+}
+
+.second-card-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0E0E0E;
+    opacity: 70%; 
+}
+
+/* second card buttons styling. */
+.second-card-btn{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+
+.second-card-btn1{
+    background-color: #5490F5;
+    line-height: 92px;
+}
+
+.second-card-btn2{
+    background-color: #09A15C;
+    line-height: 119px;
+}
+
+.second-card-btn3{
+    background-color: #FFC239;
+    line-height: 92px;
+}
+
+/* Dr. Muhammad Yunus speech and About her self like name and post styling. */
+.comment{
+    height: 94px;
+    width: auto;
+    padding: 45px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    background-image: url(../images/quote-bg.png);
+    background-position: 45px 20px;
+    background-repeat: no-repeat;
+}
+
+.actual-comment{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #0E0E0E;
+    opacity: 90%;
+    margin-bottom: 15px;
+}
+
+.commenter-name{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 90%;
+}
+.commenter-post{
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 70%;
+    margin-top: 6px;
+}
+
+/*  table section styling. */
+.question-box{
+    width: auto;
+    height: 360px;
+    border-radius: 16px;
+    margin: 0 170px 140px 160px;
+}
+
+.table-caption{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.question-box-table{
+    height: 260px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 42px;
+}
+
+.question-box-table table{
+    height: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.question-box-table tbody td{
+    padding: 15px 60px;
+    border: 1px solid black;
+}
+
+.question-box-table thead td{
+    padding: 15px 60px;
+}
+
+.question-box-table thead{
+    font-size: 16px;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+}
+
+.question-box-table tbody{
+    color: #0E0E0E;
+    font-size: 14px;
+}
+.option {
+    background-color: #C6E4D6;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*  News section styling */
+/* news1 styling */
+.news-section{
+    min-width: auto;
+    height: 734px;
+    margin: 0 170px 120px 160px;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.news-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 25px;
+}
+
+.news-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 20px;
+}
+
+.news1-parent{
+    display: flex;
+    width: auto;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    justify-content: space-between;
+}
+
+.news1-image{
+    height: 250px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 24px;
+}
+
+.news1-child2{
+    padding: 24px;
+}
+
+.news1-title{
+    color: #0E0E0E;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.news1-logo{
+    height: 35px;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.news1-date-time{
+    font-size: 15px;
+    color: #0E0E0E;
+    opacity: 90%;
+    margin-bottom: 10px;
+}
+
+.news1-description{
+    font-size: 15px;
+    color: #0E0E0E;
+    margin-bottom: 30px;
+}
+
+.news1-btn{
+    text-decoration: none;
+    background-color:#006A50;
+    color: #FFFFFF;
+    padding: 9px 12px 9px 12px;
+    border-radius: 8px;
+}
+
+/*  news2 styling. */
+.news2-parent{
+    display: flex;
+    width: auto;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.news2-image{
+    height: 250px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 24px;
+}
+
+.news2-child1{
+    padding: 24px;
+}
+
+.news2-title{
+    color: #0E0E0E;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.news2-logo{
+    height: 35px;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.news2-date-time{
+    font-size: 15px;
+    color: #0E0E0E;
+    opacity: 90%;
+    margin-bottom: 10px;
+}
+
+.news2-description{
+    font-size: 15px;
+    color: #0E0E0E;
+    margin-bottom: 30px;
+}
+
+.news2-btn{
+    text-decoration: none;
+    background-color:#006A50;
+    color: #FFFFFF;
+    padding: 9px 12px 9px 12px;
+    border-radius: 8px;
+}
+
+
