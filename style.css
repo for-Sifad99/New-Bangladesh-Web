@@ -29,6 +29,13 @@
     padding-left: 110px;
 }
 
+/* Hover effect for navbar text. */
+.text-hover:hover{
+    font-style: italic;
+    color: #006A50;
+    cursor: pointer;
+} 
+
 /* Navbar item Like button or link styling. */
 .nav-li-sign-btn{
     list-style: none;
@@ -43,6 +50,12 @@
     border: 1.5px #006A50 solid;
     border-radius: 8px;
     padding: 13px 26px 13px 26px;
+}
+
+/* sigh in button hover effect. */
+.nav-a-sign-btn:hover{
+    color: #FFFFFF;
+    background-color: #006A50;
 }
 
 /* The top section styling. */
@@ -90,6 +103,12 @@
     margin-top: 15px;
     padding: 14px 33px;
     border-radius: 6px;
+}
+
+/*  welcome button hover effect */
+.welcome-btn:hover{
+    font-weight: 500;
+    background-color: #FFC239;
 }
 
 /* Top section hero Image styling. */
@@ -146,6 +165,20 @@
     color: #0E0E0E;
     opacity: 80%; 
 }
+/* first card section hover effect */
+.first-card1:hover{
+    background-color: #D5E1FC;
+}
+.first-card2:hover{
+    background-color: #C6E4D6;
+}
+.first-card3:hover{
+    background-color: #F7EBCF;
+}
+.first-card4:hover{
+    background-color: #e4c6df;
+}
+
 
 /* second card section styling. */
 .second-cards-section{
@@ -238,6 +271,22 @@
 
 .second-card-btn3{
     background-color: #FFC239;
+    line-height: 92px;
+}
+
+/*  second card button hover effect */
+.second-card-btn1:hover{
+    background-color: #e691ee;
+    line-height: 92px;
+}
+
+.second-card-btn2:hover{
+    background-color: #e691ee;
+    line-height: 119px;
+}
+
+.second-card-btn3:hover{
+    background-color: #e691ee;
     line-height: 92px;
 }
 
@@ -406,6 +455,12 @@
     border-radius: 8px;
 }
 
+/* news1 button hover effect */
+.news1-btn:hover{
+    background-color: #FFC239;
+    color: #080808;
+}
+
 /*  news2 styling. */
 .news2-parent{
     display: flex;
@@ -459,6 +514,12 @@
     color: #FFFFFF;
     padding: 9px 12px 9px 12px;
     border-radius: 8px;
+}
+
+/* news2 button hover effect */
+.news2-btn:hover{
+    background-color:#FFC239;
+    color: #080808;
 }
 
 /*  footer donation section styling */
@@ -536,6 +597,12 @@ input[type="text"] {
     background-color: #006A50;
     border-radius: 8px;
     padding: 14px 13px 14px 13px;
+}
+
+.donate-btn:hover{
+    color:#fff4f4;
+    background-color: #62aa87;
+
 }
 
 .subscribe-section{
