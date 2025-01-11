@@ -462,7 +462,6 @@
 }
 
 /*  footer donation section styling */
-
 .Donation-section{
     min-width: auto;
     height: 335px;
@@ -543,7 +542,7 @@ input[type="text"] {
     display: flex;
     flex-direction: column;
     min-width: auto;
-    height: 200px;
+    height: 240px;
     gap: 20px;
     background-color: #C6E4D6;
     margin: 0 170px 120px 160px;
@@ -608,6 +607,36 @@ form button{
     font-size: 12px;
     font-weight: normal;
     opacity: 80%;
+    margin-top: 10px;
+}
+
+.contract{
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+    height: 160px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    margin: 0 12px 20px 12px;
+    align-items: center;
+    padding: 70px 40px;
+}
+
+.end-text{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.hr-line{
+    width: 90%;
+}
+
+.contract-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
     margin-top: 20px;
 }
 
