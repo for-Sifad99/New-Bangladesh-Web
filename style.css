@@ -461,4 +461,153 @@
     border-radius: 8px;
 }
 
+/*  footer donation section styling */
+
+.Donation-section{
+    min-width: auto;
+    height: 335px;
+    margin: 0 170px 120px 160px;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.child-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-title{
+    font-size: 36px;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+
+.donate-description{
+    font-size: 14px;
+    padding: 0px 60px;
+    font-weight: normal;
+    color:#0E0E0E;
+    opacity: 805;
+}
+
+.money-parent{
+    display: flex;
+    gap: 14px;
+    margin-top: 40px;
+}
+
+.money{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 90%;
+    padding: 25px 30px 25px 30px;
+    border-radius: 10px;
+}
+
+.money1, .money3, .money4{
+    background-color: #FFFFFF;
+}
+
+.money2{
+    background-color: #C6E4D6;
+}
+
+.money-input{
+    margin-top: 37px;
+    height: 38px;
+    width: 660px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.donate-btn{
+    text-decoration: none;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 14px 13px 14px 13px;
+}
+
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
+    height: 200px;
+    gap: 20px;
+    background-color: #C6E4D6;
+    margin: 0 170px 120px 160px;
+    border-radius: 24px;
+    align-items: center;
+    padding: 70px 40px;
+}
+
+.subscribe-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0E0E0E;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-description{
+    font-size: 12px;
+    font-weight: normal;
+    color: #0E0E0E;
+    opacity: 80%;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 6px;
+}
+
+.input-container{
+    width: 80%;
+    height: 100vh;
+    background: #0E0E0E;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+form{
+    background: #FFFFFF;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background: #006A50 ;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.promise{
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 80%;
+    margin-top: 20px;
+}
 
